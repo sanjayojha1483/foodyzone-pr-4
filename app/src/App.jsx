@@ -2,7 +2,8 @@ import { useEffect, useState } from "react";
 import styled from "styled-components";
 import SearchResult from "./components/SearchResults/SearchResult";
 
-export const BASE_URL = "http://localhost:9000";
+export const BASE_URL = "https://foodyzone-pr-4-1.onrender.com/api/recipes"
+
 
 const App = () => {
   const [data, setData] = useState(null);
